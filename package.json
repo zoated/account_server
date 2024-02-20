@@ -1,0 +1,38 @@
+{
+  "name": "ts-koa",
+  "version": "1.0.0",
+  "description": "一个简单的koa+typescript+typeorm的脚手架",
+  "tags": [
+    "orm",
+    "typescript",
+    "koa"
+  ],
+  "scripts": {
+    "start": "nodemon",
+    "build": "rm -rf dist && tsc"
+  },
+  "dependencies": {
+    "axios": "^1.6.1",
+    "dotenv": "^8.2.0",
+    "koa": "^2.7.0",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.16"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.48",
+    "@types/koa-bodyparser": "^4.2.2",
+    "@types/koa-router": "^7.0.40",
+    "@types/node": "^12.0.0",
+    "nodemon": "^1.19.0",
+    "ts-node": "^8.1.0",
+    "tsconfig-paths": "^3.8.0",
+    "typescript": "^3.4.5"
+  }
+}
